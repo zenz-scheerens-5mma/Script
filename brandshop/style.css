@@ -1,0 +1,65 @@
+/* instellingen */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  color: white;
+}
+/* hoofding */
+header {
+  background-color: black;
+  padding: 20px;
+}
+
+header img {
+  width: 3rem;
+}
+header nav a {
+  text-decoration: none;
+  padding: 20px;
+}
+
+header nav a:hover {
+  text-decoration-line: underline;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+header i {
+  font-size: 25px;
+  color: white;
+}
+
+header input {
+  width: 7rem;
+  padding: 0, 5rem;
+}
+
+/* vormgeving classes */
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+
+img {
+    height: 30px;
+    width: 50px;
+}
