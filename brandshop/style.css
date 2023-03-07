@@ -128,3 +128,41 @@ button {
   font-family: rubik, sans-serif;
   font-size: 20px;
 }
+footer {
+  padding: 20px;
+  background-color: black;
+  font-size: 14px;
+  color: aliceblue;
+  display: block;
+  }
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    }
+    footer ul li {
+      font-size: 0.8rem;
+      line-height: 2;
+      list-style-type: none;
+  }
+  footer li {
+    list-style: none;
+  }
+  a {
+    color: rgb(255, 255, 255);
+  }
+  .fa-brands{
+    font-weight: 400;
+  }
+  .fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+  }
+  .icons {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+  }
