@@ -5,6 +5,7 @@ body {
   font-family: "Bebas Neue", cursive;
   color: rgb(255, 0, 0);
   margin: 0;
+  
 }
 
 .logo img {
@@ -38,13 +39,8 @@ nav a {
   transition: color 0.2s ease, text-shadow 0.3s ease;
 }
 
-.left-nav a:hover {
-  text-shadow: 2px 2px 0px rgb(5, 85, 245), 3px 3px 0px green;
-}
 
-.right-nav a:hover {
-  text-shadow: 2px 2px 0px #f10a4c, 3px 3px 0px #a05ba1;
-}
+
 
 .left-nav {
   margin-right: auto;
@@ -55,7 +51,7 @@ nav a {
 }
 
 .logo {
-  width: 100%;
+  width: 70%;
 }
 
 .grid {
@@ -69,7 +65,7 @@ nav a {
   height: 330px;
   background-color: white;
   border-radius: 20px;
-  overflow: hidden;
+  overflow: ;
   position: relative;
 }
 
@@ -82,11 +78,10 @@ nav a {
 .grid-item img {
   max-width: 100%;
   max-height: 100%;
-  object-fit: cover;
+  object-fit: ;contain: size;
   transition: all 0.3s ease;
 }
-.grid-item:hover img {
-  filter: drop-shadow(0 0 5px #060ccf);
+
 }
 
 .name {
@@ -104,17 +99,9 @@ nav a {
   transition: color 0.2s ease, filter 0.3s ease;
 }
 
-.grid-item:hover .name {
-  filter: drop-shadow(0 0 2px #030786);
-}
 
-.grid-item:hover .date {
-  filter: drop-shadow(0 0 2px #030784);
-}
 
-.line-up_container {
-  margin: 50px auto;
-  width: 800px;
+
 }
 
 .text-container {
@@ -135,29 +122,19 @@ nav a {
 }
 
 footer {
-  background-color: #323232;
+  background-color: #ffffff;
   padding-bottom: 1px;
+  padding-top: 100px;
 }
 
-.icon-container {
-  display: flex;
-  justify-content: center;
-}
-
-.icon {
-  display: inline-block;
-  padding: 20px;
-  transition: filter 0.3s ease-in-out;
-  color: rgb(255, 0, 0);
-  font-size: 30px;
-}
+ 
 
 .icon:hover {
   filter: brightness(0.7);
 }
 
 .footer_actions {
-  background-color: #333;
+  background-color: #ffffff;
   padding: 20px;
 }
 
@@ -193,9 +170,8 @@ footer {
   transition: color 0.2s ease, text-shadow 0.3s ease;
 }
 
-.footer_actions a:hover {
-  text-shadow: 2px 2px 0px #0524cf, 3px 3px 0px #a05ba1;
-}
+
+
 
 .copyright {
   font-size: 20px;

@@ -1,0 +1,179 @@
+@import url("https://use.typekit.net/hfi1kak.css");
+
+:root {
+  --bgc-01: hsl(0, 0%, 2%);
+  --bgc-02: hsl(0, 0%, 8%);
+  --txt-01: hsl(0, 100%, 50%);
+  --txt-red: rgb(255, 0, 0);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  background-color: var(--bgc-01);
+  color: var(--txt-01);
+  font-family: "owners-wide", sans-serif;
+  line-height: 1;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: end;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  color: var(--txt-01);
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+.lineup {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.grid-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.grid-card img:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.grid-card h3 {
+  margin-top: 0, 5rem;
+}
+footer {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer a {
+  color: red;
+}
+footer i {
+  padding: 40px;
+  font-size: 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-media a img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 5px;
+}
+
+.footer-text {
+  text-align: right;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.lineup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  grid-row: 1 / span 2;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.card-social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.card-youtube {
+  grid-column: 2;
+  grid-row: 2;
+  
+}
+
+.card-youtube iframe {
+  width: 100%;
+  height: 400px;
+}
